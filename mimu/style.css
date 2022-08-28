@@ -1,0 +1,99 @@
+.myanmar-svg {
+    width: 5em;
+}
+svg {
+    width: 15px;
+}
+nav {
+    
+    background-color: rgb(132, 1, 255);
+}
+
+p {
+    font-size: 1rem;
+}
+
+.news-section {
+    max-width: 15em;
+    min-width: 15em;
+    background: wheat;
+    border-radius: 1rem;
+}
+
+.introduction-line:hover {
+    cursor: pointer;
+    background: gray;
+    transition: 1s;
+}
+p {
+    font-size: 13px;
+}
+.paragraph, .paragraph-2, .paragraph-3, .paragraph-4, .paragraph-5, .paragraph-6  {
+    
+    display: none;
+    
+}
+.paragraph {
+    display: block;
+}
+
+.vacancy-announcement-section {
+    width: 85%;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-ul {
+    gap:40px;
+}
+
+li {
+    font-size: 14px;
+}
+
+footer {
+    margin-bottom: 0;
+    background: rgba(5, 250, 230, 0.788);
+}
+
+.user-login {
+    width: 20em;
+}
+
+/* for developer contact page */
+
+.carousel {
+    width: 30em;
+}
+
+.d-block {
+    width: 30em;
+}
+
+.form-section {
+    width: 30em;
+}
+.input-bar {
+    transform: translateX(20em);
+}
+.email {
+    transform:  translateX(20em);
+}
+
+
+@media screen and (max-width: 480px) {
+    .hero-section {
+      flex-direction: column;
+      
+    };
+
+    table  {
+        width: 30%;
+    };
+
+    footer {
+        width: 100%;
+    }
+  }

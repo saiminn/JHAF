@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,200&display=swap');
+
+.music-icon {
+    width: 2.5em;
+}
+
+.d-block {
+    float: left;
+    width:  40em;
+    height: 30em;
+    object-fit: cover;
+}
+
+
+ul {
+    font-size: larger;
+}
+
+.search-icon {
+    width: 2.5em;
+}
+.card {
+    width: 25%;
+}
+
+.paragraph {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: 600;
+}
+.royal-free-music {
+    margin-right: 0;
+}
+
+.brands-cards {
+    left: 50em;
+    top: 18em;
+    width: 50em;
+}
+
+
+.btn-international {
+    width: 19em;
+    height: 5em;
+    right: 20em;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    color: black;
+    background: rgb(221, 62, 97);
+
+}
+.btn-burmese {
+    top: 8em;
+    left:15em;
+    width: 19em;
+    height: 5em;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    color: black;
+    background: rgba(168, 230, 0, 0.815);
+}
+.btn-yearSong {
+    top: 16em;
+    left:26em;
+    width: 19em;
+    height: 5em;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    color: black;
+    background: rgba(0, 230, 230, 0.815);
+}
+.image-slider {
+    width: 35em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.music-text {
+    
+    padding-top: 5em;
+}
+
+.guitar {
+    width: 10em;
+}
+
+
+.course-card {
+    width: 20em;
+    background: rgba(73, 80, 87);
+
+}
+.input-group {
+    width: 20em;
+}
