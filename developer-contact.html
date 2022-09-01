@@ -38,37 +38,42 @@
           </h1>
         </div>
         <!-- form-section -->
-        <div class="mb-3">
-          
-          <label for="exampleFormControlInput1" class="form-label email form-section">Email address</label>
-          <input type="email" class="form-control input-bar form-section" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3 mx-auto form-section">
-          <label for="exampleFormControlTextarea1" class="form-label form section">Example textarea</label>
-          <textarea class="form-control shadow" id="exampleFormControlTextarea1" rows="3"></textarea>
-          <button class="btn btn-info mt-3 shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">Send Feedback</button>
-          <div class="justify-content-center mt-5 mb-3">
-            <p class="justify-content-center fs-7 text-secondary">Just tell your problem about the page, this handsome guy will solve for you :p</p></div>
-        </div>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3 mx-auto form-section">
+            <label for="exampleFormControlTextarea1" class="form-label form section">Example textarea</label>
+            <textarea class="form-control shadow" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <button type="button" class="btn btn-warning mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Launch demo modal
+            </button>
+            
+            <div class="justify-content-center mt-5 mb-3">
+              <p class="justify-content-center fs-7 text-secondary">Just tell your problem about the page, this handsome guy will solve for you :p</p></div>
+          </form>
         <!-- model-section -->
         
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Thanks a lot for your feedback!</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Great Feedback! Thanks</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <span> Your feedback have been successfully sent to Developer. We will reply soon. </span>
+                Your feedback has successfully sent to developer.
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-info" data-bs-dismiss="modal">Save changes</button>
               </div>
             </div>
           </div>
         </div>
-       
+        
         
 
 
