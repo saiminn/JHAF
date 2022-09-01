@@ -145,6 +145,14 @@ footer {
         
     }
     
+    .carousel {
+        width: 20em;
+    }
+    
+    .carousel-item {
+        width: 20em;
+    }
+    
  }
 
  
