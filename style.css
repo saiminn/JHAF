@@ -147,11 +147,21 @@ footer {
     
     .carousel {
         width: 15em;
+
     }
     
     .carousel-item {
         width: 15em;
     }
+
+    .aboutus {
+        width: 15em;
+        align-items: center;
+    }
+
+   .aboutus h2 {
+    font-size: 16px;
+   }
     
  }
 
