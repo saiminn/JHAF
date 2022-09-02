@@ -59,3 +59,20 @@ function showHide6() {
     )
 };
 
+const data = document.querySelectorAll(".data");
+const searchBar = document.querySelector(".searchBar");
+
+searchBar.addEventListener("keyup",(event)=>{
+    const searchQuary = event.target.value.toLowerCase();
+    
+    for(let i = 0; i < data.length; i++){
+        const currentData = data[i].textContent.toLowerCase();
+
+        if(currentData.includes(searchQuary)){
+            data[i].style.display = 'block'
+        } else {
+            data[i].style.display = 'none'
+        }
+    }
+});
+
