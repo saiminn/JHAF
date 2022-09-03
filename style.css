@@ -86,6 +86,15 @@ footer {
     width: 20em;
 }
 
+.clock {
+    width: 15%;
+    padding: 1em;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+}
+
 
 @media screen and (max-width: 500px) {
     .hero-section {
