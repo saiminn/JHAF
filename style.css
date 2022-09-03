@@ -86,13 +86,10 @@ footer {
     width: 20em;
 }
 
-.clock {
-    width: 15%;
-    padding: 1em;
-    border-radius: 10px;
+.clock-hr {
+    width: 20%;
     margin: 0 auto;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: aqua;
+    
 }
 
 
