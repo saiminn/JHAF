@@ -1,16 +1,41 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .myanmar-svg {
     width: 5em;
 }
 svg {
     width: 15px;
 }
+
+
 nav {
     
     background-color: rgb(132, 1, 255);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
 }
 
 p {
     font-size: 1rem;
+   
+}
+
+.hero-section {
+    font-family: 'Dosis', sans-serif;
+}
+.container-cv {
+    font-family: 'Dosis', sans-serif;
 }
 
 .news-section {
@@ -44,6 +69,9 @@ p {
 ul {
     list-style: none;
 }
+footer {
+    font-family: 'Josefin Sans', sans-serif;
+}
 
 .footer-ul {
     gap:40px;
@@ -55,7 +83,7 @@ li {
 
 footer {
     margin-bottom: 0;
-    background: rgba(5, 250, 230, 0.788);
+    background: #AFB4FF;
 }
 
 .user-login {
@@ -90,6 +118,13 @@ footer {
     width: 20%;
     margin: 0 auto;
     
+}
+
+/* contact us */
+.text-muted {
+    font-size: 0.8rem;
+
+   
 }
 
 

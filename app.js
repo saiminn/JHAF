@@ -69,7 +69,7 @@ searchBar.addEventListener("keyup",(event)=>{
         const currentData = data[i].textContent.toLowerCase();
 
         if(currentData.includes(searchQuary)){
-            data[i].style.display = 'block'
+            data[i].style.display = 'table-row'
         } else {
             data[i].style.display = 'none'
         }
